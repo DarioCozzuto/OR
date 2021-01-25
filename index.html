@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OR-prompt-alert</title>
+</head>
+<script>
+// && AND si usa solo se entrambe le condizioni sono vere
+// || OR si usa anche se solo una delle due condizioni è vera	
+quantitaString=prompt("Inserisci la quantita");
+prezzoString=prompt("Inserisci il prezzo");
+quantita=parseFloat(quantitaString);
+prezzo=parseFloat(prezzoString);
+imponibile=quantita*prezzo;
+	
+if(quantita>10 || imponibile>300)
+{alert("Ok! Sconto applicato");}
+else
+{alert("Sconto non applicabile");}
+
+</script>
+<body>
+</body>
+</html>
