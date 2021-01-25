@@ -1,1 +1,1 @@
-# or
+# concatenante or
